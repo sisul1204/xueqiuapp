@@ -1,0 +1,13 @@
+xueqiu:
+  username: xxx
+  password: ttt
+appium:
+  app: ""
+  url: http://127.0.0.1:4723/wd/hub
+  wait: 15
+  capabilities:
+    platformNames: android
+    deviceName: sisul
+    appPackage: com.xueqiu.android
+    appActivity: .view.WelcomeActivityAlias
+    autoGrantPermission: true
